@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Sedgwick+Ave&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Oswald:wght@600&family=Sedgwick+Ave&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Oswald:wght@600&family=Sedgwick+Ave&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Oswald:wght@600&family=Sedgwick+Ave&family=Yellowtail&display=swap');
 
 body{
 	margin: 0px;
@@ -52,4 +55,63 @@ nav ul.navbar-nav li.nav-item a.nav-link:hover{
 #Description{
 	background-color: gray;
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Des-topic{
+	font-weight: bold;
+	font-family: Oswald;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+.des-para{
+	text-align: justify;
+	font-family: Indie Flower;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+}
+#sdg2{
+	padding-bottom: 20px;
+}
+#mission-img{
+	width: 500px;
+	height: 300px;
+}
+#Mission{
+	background-color: gray;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#quotes1{
+	height: 650px;
+	padding-top: 100px;
+}
+#quotes1-para{
+	color: wheat;
+	text-align: center;
+	font-size: 30px;
+	font-family: Sedgwick Ave;
+}
+#mis-para{
+	border-style: double;
+	border-color: aqua;
+	padding: 15px;
+}
+#m-t{
+	border-radius: 50%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#m-t-n{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+#mission-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
