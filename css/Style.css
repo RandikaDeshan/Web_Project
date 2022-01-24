@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Sedgwick+Ave&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cookie&family=Dancing+Script&family=Estonia&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Neonderthaw&family=Yellowtail&display=swap');
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Images/bg-img.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#logo{
+	font-family: Acme;
+	font-weight: 600;
+	color: greenyellow;
+}
+#Main-topic{
+	height: 600px;
+	padding-top: 250px;
+}
+#topic{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: Abril Fatface;
+}
+#sub-top{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+	opacity: 50%;
+	font-family: Lobster;
+}
+#Read-more{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	border: #029C30;
+	border-style: dotted;
+	padding: 5px;
+	background-color: white;
+}
+nav ul.navbar-nav li.nav-item a.nav-link:hover{
+	color: chartreuse;
+}
+#Description{
+	background-color: gray;
+	padding-top: 50px;
+}
