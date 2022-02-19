@@ -1,0 +1,30 @@
+@charset "utf-8";
+body{
+	background-color: gray;
+}
+#Login{
+	background-color: white;
+	margin: 50px 30px;
+	border: solid;
+	border-radius: 20px;
+	padding: 20px 20px 20px 20px;
+}
+#login_Topic{
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #df5b5b;
+	border: none;
+	border-radius: 15px;
+	box-align: left;
+  }
+  
+
