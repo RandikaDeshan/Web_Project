@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <title>Zero Hunger / SDG 02 / Sri Lanka / News</title>
-	<link rel="stylesheet" type="text/css" href="css/Login_Style.css">
+	<link rel="stylesheet" type="text/css" href="Login_Style.css">
 </head>
 
 <body>
@@ -44,21 +44,21 @@ if(isset($_POST['submit'])){
 	<div id="Login">
 		<div class="container">
 			<h2 id="login_Topic">Login</h2>
-			<form class="was-validated">
+			<form action="Account.php" method="POST" class="was-validated">
 				<div class="mt-10 mb-10">
 					<label for="username">Username : </label>
-					<input type="text" class="form-control" id="username" placeholder="amalperera" name="fname" required>
+					<input type="text" class="form-control" id="username" placeholder="amalperera" name="username" value="<?php echo $username; ?>" required>
 					<div class="valid-feedback">Valid.</div>
       				<div class="invalid-feedback">Please fill out this field.</div>
 				</div>
 				<div class="mt-10 mb-10">
 					<label for="password">Password : </label>
-					<input type="password" class="form-control" id="password" placeholder="Abc12@de" name="lname" required>
+					<input type="password" class="form-control" id="password" placeholder="Abc12@de" name="password" value="<?php echo $_POST['password']; ?>" required>
 					<div class="valid-feedback">Valid.</div>
       				<div class="invalid-feedback">Please fill out this field.</div>
 				</div>
-                <button type="submit" class="button">Login</button>
-                <p>Don't you have an account?<a href="url">Create a new account</a></p>
+                <button type="submit" name="submit" class="button">Login</button>
+                <p>Create a new account<a href="url"> Sign Up </a></p>
 			</form>
 		</div>
 	</div>
